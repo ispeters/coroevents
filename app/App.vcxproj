@@ -100,7 +100,7 @@
       <ErrorReporting>Send</ErrorReporting>
       <AdditionalOptions>/await %(AdditionalOptions)</AdditionalOptions>
       <ExceptionHandling>SyncCThrow</ExceptionHandling>
-      <DisableSpecificWarnings>4820;4711;4571;4365</DisableSpecificWarnings>
+      <DisableSpecificWarnings>5038;4946;4820;4711;4514;4571;4365</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -124,7 +124,7 @@
       <ErrorReporting>Send</ErrorReporting>
       <AdditionalOptions>/await %(AdditionalOptions)</AdditionalOptions>
       <ExceptionHandling>SyncCThrow</ExceptionHandling>
-      <DisableSpecificWarnings>4820;4711;4571;4365</DisableSpecificWarnings>
+      <DisableSpecificWarnings>5038;4946;4820;4711;4514;4571;4365</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -150,7 +150,7 @@
       <ErrorReporting>Send</ErrorReporting>
       <AdditionalOptions>/await %(AdditionalOptions)</AdditionalOptions>
       <ExceptionHandling>SyncCThrow</ExceptionHandling>
-      <DisableSpecificWarnings>4820;4711;4571;4365</DisableSpecificWarnings>
+      <DisableSpecificWarnings>5038;4946;4820;4711;4514;4571;4365</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -178,7 +178,7 @@
       <ErrorReporting>Send</ErrorReporting>
       <AdditionalOptions>/await %(AdditionalOptions)</AdditionalOptions>
       <ExceptionHandling>SyncCThrow</ExceptionHandling>
-      <DisableSpecificWarnings>4820;4711;4571;4365</DisableSpecificWarnings>
+      <DisableSpecificWarnings>5038;4946;4820;4711;4514;4571;4365</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -189,6 +189,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
+    <ClInclude Include="CharHandler.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
